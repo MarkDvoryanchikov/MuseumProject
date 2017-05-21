@@ -802,7 +802,6 @@ h2:after {
 /* ссылка справа у заголовков элементов */
 .p-to-form {
     position: relative;
-    top:-28px;
     float: right;
 }
 .p-to-form img {
@@ -1075,7 +1074,6 @@ h2:after {
 
 .books .p-to-form {
     position: relative;
-    top:-48px !important;
     float: right;
 }
 main .quarter-to-2 {

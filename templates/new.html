@@ -6,9 +6,9 @@
 <div id="main" class="entity museum-image" data-location="news">
     <h1 class="caption w3-xxlarge">События в музее</h1>
     <div>
-        <p class="bold w3-large w3-margin-0">
+        <span class="bold w3-large w3-margin-0">
             {{ entity.params.name|raw }}
-        </p>
+        </span>
         {% if admin %}
         <div class="p-to-form">
             <a href="{{ wwwroot }}/admin/edit.php?id={{ entity.id }}"><img src="{{ wwwroot }}/images/edit.png" /></a>

@@ -29,14 +29,14 @@
             {% endif %}
         </div>
         <div>
-            <p class="bold w3-large w3-padding-top w3-margin-0">
+            <span class="bold w3-large w3-padding-top w3-margin-0">
                 {{ entity.params.name }}
                 {% if admin %}
                 <span class="lightGrey text2">
                     (приоритет отображения: {{ entity.params.order }})
                 </span>
                 {% endif %}
-            </p>
+            </span>
             {% if admin %}
             <div class="p-to-form">
                 <a href="{{ wwwroot }}/admin/edit.php?id={{ entity.id }}"><img src="{{ wwwroot }}/images/edit.png" /></a>
