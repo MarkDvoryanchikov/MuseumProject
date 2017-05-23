@@ -15,6 +15,8 @@ $perpage = isset($CONFIG->entities[$context]['perpage']) ? $CONFIG->entities[$co
 switch ($context) {
     case 'periods':
     case 'leaders':
+    case 'exposition-graduates':
+    case 'exposition-scientists':
         $order = array('param' => 'order', 'order' => 'ASC', 'cast' => 'INT');
         break;
     case 'memories':
